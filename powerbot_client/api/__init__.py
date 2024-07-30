@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 # flake8: noqa
 
 # import apis into api package
@@ -24,4 +26,3 @@ from powerbot_client.api.signals_api import SignalsApi
 from powerbot_client.api.subscriptions_api import SubscriptionsApi
 from powerbot_client.api.tenants_api import TenantsApi
 from powerbot_client.api.trades_api import TradesApi
-
